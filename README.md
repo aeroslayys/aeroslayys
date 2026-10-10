@@ -29,14 +29,14 @@ I build practical software with personality—from full-stack dashboards and dev
 | --- | --- |
 | **Languages & markup** | JavaScript, Python, C, C++, SQL, Bash/Shell, VB.NET, HTML5, CSS3, QML |
 | **Frontend** | React, Vite, Tailwind CSS, Leaflet.js, D3.js, responsive web design |
-| **Backend & APIs** | Node.js, Express.js, REST APIs, authentication, validation, security middleware |
-| **Data** | PostgreSQL, SQL schema design, API-driven data handling |
+| **Backend & APIs** | Python, FastAPI, SQLAlchemy, Node.js, Express.js, REST APIs, authentication, validation, security middleware |
+| **Data** | PostgreSQL, Cloud SQL, SQLite, SQL schema design, API-driven data handling |
 | **DevOps & infrastructure** | Linux, Docker, Docker Compose, Git, GitHub Actions, Google Cloud Run, Tailscale |
 | **AI & visualization** | Google Gemini API, GitHub REST API, interactive network graphs, data visualization |
 | **Audio & creative tools** | FFmpeg, Web Audio API, Adobe Photoshop |
 | **Linux desktop** | Niri, Wayland, Noctalia, Zsh, Alacritty |
 
-**Also exploring:** Python FastAPI, Hugging Face Transformers, MongoDB, Nginx, and production-grade NLP / threat-intelligence pipelines.
+**Also exploring:** Hugging Face Transformers, MongoDB, Nginx, and production-grade NLP / threat-intelligence pipelines.
 
 > My repositories span production-facing apps, hackathon prototypes, personal tooling, and ongoing experiments. Features marked as planned in an individual project README aren't necessarily implemented yet.
 
@@ -55,6 +55,22 @@ A **full-stack hackathon prototype** for exploring coordinated online behavior a
 **Stack:** React · Vite · JavaScript · Express · D3.js · Node.js
 
 *The public prototype runs on synthetic data and uses a simulated evidence ledger; real social-media ingestion and a Hyperledger-backed ledger are future architecture goals.*
+
+### 🗺️ [CrimeMap — Geospatial Crime Intelligence & Decision Support](https://github.com/aeroslayys/CrimeMap)
+
+A **full-stack geospatial analytics prototype** for the Puducherry Police Hackathon 2026, using **entirely synthetic incident data**.
+
+- Manage, filter, and import fictional incidents with CSV/JSON review, validation, and duplicate checks.
+- Explore incidents on an interactive Leaflet map with markers, heatmaps, grid comparisons, and simulated operations overlays.
+- Visualize trends in analytics dashboards, plan prevention actions, and review before/after incident counts without implying causation.
+- Enforce role-based access for Viewer, Analyst, Officer, and Admin accounts; export presentation-ready PDF reports.
+- Deploy React + FastAPI together on **Google Cloud Run**, backed by persistent **Cloud SQL PostgreSQL**, with Secret Manager, Docker, and GitHub Actions checks.
+
+**Stack:** React · Vite · Leaflet · FastAPI · Python · SQLAlchemy · PostgreSQL · Docker · Google Cloud Run · Cloud SQL · GitHub Actions
+
+**[🚀 Open the deployed demo](https://crimemap-595311113823.asia-south1.run.app)** · [Deployment architecture & setup](https://github.com/aeroslayys/CrimeMap/blob/dev/shwetha/docs/CLOUD_DEPLOYMENT.md)
+
+*Hackathon proof of concept with fictional data and access-controlled features; not an operational police platform.*
 
 ### 🔥 [GitRoast AI — Give Your GitHub a Glow-Up](https://github.com/aeroslayys/GitRoast-AI)
 
