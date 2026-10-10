@@ -146,18 +146,6 @@ Contributed to a **real-time anonymous campus chat application** in the `Shwetha
 
 *Private repository — accessible only to authorized collaborators.*
 
-## 🌿 More Things I've Built
-
-- **Pondicherry University Flora & Fauna Mapping:** interactive Leaflet-based campus maps for plants, dogs, and birds, with searchable markers, detail panels, and photo galleries.
-- **[Noctalia Aero Plugins](https://github.com/aeroslayys/Noctalia-Aero-plugins):** QML desktop/bar widgets, including SyncTodo task-display integration.
-- **[OS Content Hub](https://github.com/aeroslayys/EContent):** searchable educational-content interface with filters and theme switching.
-
-## 💡 What I Enjoy Working On
-
-**Full-stack systems** · **Developer tools** · **Applied AI** · **Cybersecurity** · **Linux & Wayland** · **DevOps & self-hosting** · **Audio technology** · **Maps & visualization** · **Creative UI/UX**
-
-I like projects that combine **useful functionality, thoughtful design, and interesting engineering challenges**.
-
 ## 📫 Connect
 
 - **GitHub:** [@aeroslayys](https://github.com/aeroslayys)
