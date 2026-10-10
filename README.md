@@ -129,6 +129,23 @@ Includes **Jellyfin, Sonarr, Radarr, Prowlarr, Bazarr, qBittorrent, and Tailscal
 
 **Stack:** Docker · Docker Compose · Linux · Tailscale
 
+## 🤝 Collaborative Projects
+
+### 💬 [Blind Chat — Real-Time Campus Chat](https://github.com/nocapvishal/Blind-Chat-/tree/Shwetha-Fork)
+
+Contributed to a **real-time anonymous campus chat application** in the `Shwetha-Fork` branch of a collaborative repository.
+
+- Fixed Socket.IO matchmaking and message-display issues, including private partner notifications and sender identification.
+- Improved matching consistency by normalizing gender, intent, and preference inputs.
+- Built a university-email OTP onboarding flow using **Nodemailer / Mailtrap** and an in-page verification UI.
+- Addressed disconnect-handler errors to improve chat-server stability.
+
+**Stack:** JavaScript · Node.js · Express · Socket.IO · Nodemailer
+
+**[View my contribution branch](https://github.com/nocapvishal/Blind-Chat-/tree/Shwetha-Fork)**
+
+*Private repository — accessible only to authorized collaborators.*
+
 ## 🌿 More Things I've Built
 
 - **Pondicherry University Flora & Fauna Mapping:** interactive Leaflet-based campus maps for plants, dogs, and birds, with searchable markers, detail panels, and photo galleries.
