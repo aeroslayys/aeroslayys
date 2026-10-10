@@ -154,6 +154,6 @@ Contributed to a **real-time anonymous campus chat application** in the `Shwetha
 
 <div align="center">
 
-*Always learning, experimenting, and building something new.* 🚀
+*I should've started yesterday.* 
 
 </div>
