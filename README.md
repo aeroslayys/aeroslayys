@@ -42,6 +42,21 @@ I build practical software with personality—from full-stack dashboards and dev
 
 ## 🚀 Featured Projects
 
+### 🔊 [SoundScout — Find Spaces That Sound Right](https://github.com/aeroslayys/Soundscout)
+
+A community-powered venue discovery platform that helps people choose places based on their **sound environment**, not just photos and star ratings. Useful for students, remote workers, people who prefer quieter spaces or are sensitive to noise, and anyone who wants more context before visiting a venue.
+
+- **Discover calmer places:** interactive venue map, community quietness ratings (Loud → Silent), and **Quiet Near Me** filtering.
+- **Understand sound over time:** recent community reports, sound heatmaps, recorded sound information, and time-of-day trends.
+- **Optional audio analysis:** short ambient recordings are analyzed with FFmpeg for mean and maximum digital recording levels; uploaded clips are not retained after analysis.
+- **Accessibility context:** venue tags for accessibility features and gender-neutral toilets.
+- **Community and trust:** passwordless email OTP accounts, user profiles, venue approval, duplicate detection, reporting, and admin moderation tools.
+- **Web + mobile:** browser experience plus a **React Native / Expo Android app** with native maps, location support, and audio recording integration. Android beta APK is available from the [GitHub Releases](https://github.com/aeroslayys/Soundscout/releases) page.
+
+SoundScout complements general-purpose maps and review apps by making venue sound information easier to discover and compare. Measurements are device-dependent dBFS readings, not calibrated dB SPL measurements, and venue conditions can change.
+
+**Stack:** React Native · Expo · JavaScript · HTML · CSS · Node.js · Express · PostgreSQL · PostGIS · Leaflet · react-native-maps · FFmpeg
+
 ### 🛡️ [SentinelNet — Social Media Intelligence & Network Analysis](https://github.com/aeroslayys/SentinelNet_FullStack_Prototype)
 
 A **full-stack hackathon prototype** for exploring coordinated online behavior and threat-intelligence workflows.
@@ -86,18 +101,6 @@ A GitHub portfolio reviewer that combines a transparent scoring rubric with opti
 **Stack:** Node.js · JavaScript · HTML · CSS · GitHub REST API · Gemini API · GitHub Actions · Google Cloud Run
 
 **[🚀 Try the live app](https://gitroast-ai-494460734333.asia-south1.run.app)**
-
-### 🔊 [SoundScout — Find Spaces That Sound Right](https://github.com/aeroslayys/Soundscout)
-
-A location-aware project for discovering and comparing public spaces by their sound environment.
-
-- Venue discovery with quietness ratings and sound reports.
-- Audio analysis using FFmpeg-based loudness detection.
-- Time-of-day noise insights and a sound-level display.
-- User accounts, email-based authentication, and admin tools.
-- Backend routes and PostgreSQL-based data handling.
-
-**Stack:** JavaScript · HTML · CSS · Node.js · Express · PostgreSQL · FFmpeg
 
 ### 🎧 [Feather Music Player](https://github.com/aeroslayys/Music)
 
